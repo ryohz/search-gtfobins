@@ -58,7 +58,8 @@ def main():
         search(commands)
 
     if arg_type == 'imdt' :
-        pass
+        commands= sys.argv[3:]
+        search(commands)
 
     pass
 
