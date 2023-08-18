@@ -45,6 +45,7 @@ def main():
         print("python main.py [type] [args]")
         print("[type] = file / imdt")
         print("[args] = </path/to/file> / command command command ...")
+        return
 
     arg_type = sys.argv[1]
 
